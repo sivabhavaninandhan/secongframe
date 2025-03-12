@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <test thread-count="5" name="TestFaceBook(failed)" verbose="0">
+    <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="secongframeday_01.testClassExtentsix">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkStataus"/>
+          <include name="testFaceBook"/>
+          <include name="generateExtentReport"/>
+          <include name="initializeExtentReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- secongframeday_01.testClassExtentsix -->
+    </classes>
+  </test> <!-- TestFaceBook(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="TestGoogle">
+  <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="secongframeday_01.testClassExtentsix"/>
+      <methods>
+      <include name="testGoogle"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestORGHRM">
+  <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="secongframeday_01.testClassExtentsix"/>
+      <methods>
+      <include name="testORGhrm"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestFaceBook">
+  <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="secongframeday_01.testClassExtentsix"/>
+      <methods>
+      <include name="testFaceBook"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+
+  
+ 
+</suite> <!-- Suite -->
