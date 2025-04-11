@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="TestAutomation">
+  <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="ExtentReportday_05.testcasesfive"/>
+      <methods>
+      <include name="testpaginationdemo"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestBootstrap">
+  <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="ExtentReportday_05.testcasesfive"/>
+      <methods>
+      <include name="BootStrapDropdown"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

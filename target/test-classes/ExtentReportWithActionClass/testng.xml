@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+  <test  name="testaction">
+  <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="ExtentReportWithActionClass.testcasesActions"/>
+      <methods>
+      <include name="doubletest"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="TestDragandDrop">
+  <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="ExtentReportWithActionClass.testcasesActions"/>
+      <methods>
+      <include name="dragtest"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="testDoubleTwo">
+  <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="ExtentReportWithActionClass.testcasesActions"/>
+      <methods>
+      <include name="doubletwo"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

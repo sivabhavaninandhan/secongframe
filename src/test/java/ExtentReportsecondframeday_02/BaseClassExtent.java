@@ -56,7 +56,7 @@ public class BaseClassExtent {
  @BeforeSuite
  public void initializeextentreport()
  {
-	 ExtentSparkReporter sparkreporter_All=new ExtentSparkReporter("AllTests.html");
+	 ExtentSparkReporter sparkreporter_All=new ExtentSparkReporter("report2.html");
 	 extentReports=new ExtentReports();
 	 extentReports.attachReporter(sparkreporter_All);
 	 extentReports.setSystemInfo("OS",System.getProperty("os.name"));
@@ -67,7 +67,7 @@ public class BaseClassExtent {
  public void  generateextentreport() throws IOException
  {
 	 extentReports.flush();
-	 Desktop.getDesktop().browse(new File("AllTests.html").toURI());
+	 Desktop.getDesktop().browse(new File("report2.html").toURI());
  }
  @AfterMethod
  public void checkstatus(Method m,ITestResult result) throws IOException

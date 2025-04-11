@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="Test1">
+    <classes>
+      <class name="projectPracticeDayOne.testcaseone_001"/>
+      <methods>
+      <include name="testCase4"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test2">
+    <classes>
+      <class name="projectPracticeDayOne.testcaseone_001"/>
+      <methods>
+      <include name="testCase5"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
