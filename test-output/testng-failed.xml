@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestORNG(failed)">
+    <parameter name="author" value="bhavani"/>
     <classes>
-      <class name="projectPracticeDayOne.testcase003">
+      <class name="ExtentReportPracticeDay_06.DataproviderExtentReportTestCases">
         <methods>
+          <include name="InitializeExtentReport"/>
+          <include name="teardown"/>
           <include name="setup"/>
-          <include name="testcasesix"/>
+          <include name="generateExtentReport"/>
+          <include name="checkStatus"/>
+          <include name="testORG" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- projectPracticeDayOne.testcase003 -->
+      </class> <!-- ExtentReportPracticeDay_06.DataproviderExtentReportTestCases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestORNG(failed) -->
+  <test thread-count="5" name="TestGoogle(failed)">
+    <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="ExtentReportPracticeDay_06.DataproviderExtentReportTestCases">
+        <methods>
+          <include name="InitializeExtentReport"/>
+          <include name="teardown"/>
+          <include name="testgoogle"/>
+          <include name="setup"/>
+          <include name="generateExtentReport"/>
+          <include name="checkStatus"/>
+        </methods>
+      </class> <!-- ExtentReportPracticeDay_06.DataproviderExtentReportTestCases -->
+    </classes>
+  </test> <!-- TestGoogle(failed) -->
+  <test thread-count="5" name="TestFacebook(failed)">
+    <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="ExtentReportPracticeDay_06.DataproviderExtentReportTestCases">
+        <methods>
+          <include name="InitializeExtentReport"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="generateExtentReport"/>
+          <include name="checkStatus"/>
+          <include name="testfacebook"/>
+        </methods>
+      </class> <!-- ExtentReportPracticeDay_06.DataproviderExtentReportTestCases -->
+    </classes>
+  </test> <!-- TestFacebook(failed) -->
+</suite> <!-- Failed suite [Suite] -->
