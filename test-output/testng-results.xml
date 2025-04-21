@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-19T20:01:49 IST" name="Suite" finished-at="2025-04-19T20:02:34 IST" duration-ms="45142">
+  <suite started-at="2025-04-21T16:40:37 IST" name="Suite" finished-at="2025-04-21T16:41:21 IST" duration-ms="44227">
     <groups>
     </groups>
-    <test started-at="2025-04-19T20:01:49 IST" name="TestORNG" finished-at="2025-04-19T20:02:25 IST" duration-ms="36023">
-      <class name="ExtentReportPracticeday_05.ExtenttestcasesDataprovider">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:01:49 IST" name="setup" finished-at="2025-04-19T20:01:55 IST" duration-ms="5523" status="PASS">
+    <test started-at="2025-04-21T16:40:37 IST" name="TestORNG" finished-at="2025-04-21T16:41:14 IST" duration-ms="37178">
+      <class name="ExtentReportpracticeDay_08.ExtentReportTestcases">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:40:37 IST" name="setup" finished-at="2025-04-21T16:40:43 IST" duration-ms="6035" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@f5ce0bb]]>
+                <![CDATA[org.testng.TestRunner@15639d09]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:01:55 IST" name="testORG" data-provider="validation" finished-at="2025-04-19T20:02:04 IST" duration-ms="8880" status="PASS">
+        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:40:44 IST" name="testORG" data-provider="validdata" finished-at="2025-04-21T16:40:54 IST" duration-ms="10455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,32 +34,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testORG -->
-        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:04 IST" name="checkstatus" finished-at="2025-04-19T20:02:04 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:40:54 IST" name="checkstatus" finished-at="2025-04-21T16:40:55 IST" duration-ms="36" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)]]>
+                <![CDATA[public void ExtentReportpracticeDay_08.ExtentReportTestcases.testORG(java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testORG status=SUCCESS method=ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051] output={null}]]]>
+                <![CDATA[[TestResult name=testORG status=SUCCESS method=ExtentReportTestcases.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkstatus -->
-        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:04 IST" name="testORG" data-provider="validation" finished-at="2025-04-19T20:02:12 IST" duration-ms="7832" status="FAIL">
+        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:40:55 IST" name="testORG" data-provider="validdata" finished-at="2025-04-21T16:41:02 IST" duration-ms="7447" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sdfhlk]]>
+                <![CDATA[asdfer]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[qwer123]]>
+                <![CDATA[iyr123]]>
               </value>
             </param>
           </params>
@@ -71,9 +71,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64bf198599ef5ff499b07f6b76db5a57, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64bf198599ef5ff499b07f6b76db5a57]]>
+Command: [a3de2a92939a63d0354ab89aadb990aa, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64871/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3de2a92939a63d0354ab89aadb990aa]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='oxd-userdropdown-tab']/child::img"}
@@ -82,9 +82,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64bf198599ef5ff499b07f6b76db5a57, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64bf198599ef5ff499b07f6b76db5a57
+Command: [a3de2a92939a63d0354ab89aadb990aa, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64871/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3de2a92939a63d0354ab89aadb990aa
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -99,7 +99,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testORG(ExtenttestcasesDataprovider.java:19)
+at ExtentReportpracticeDay_08.ExtentReportTestcases.testORG(ExtentReportTestcases.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -132,23 +132,55 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testORG -->
-        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:12 IST" name="checkstatus" finished-at="2025-04-19T20:02:12 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:41:02 IST" name="checkstatus" finished-at="2025-04-21T16:41:02 IST" duration-ms="214" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)]]>
+                <![CDATA[public void ExtentReportpracticeDay_08.ExtentReportTestcases.testORG(java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testORG status=FAILURE method=ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051] output={null}]]]>
+                <![CDATA[[TestResult name=testORG status=FAILURE method=ExtentReportTestcases.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkstatus -->
-        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:12 IST" name="testORG" data-provider="validation" finished-at="2025-04-19T20:02:19 IST" duration-ms="6594" status="FAIL">
+        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:41:02 IST" name="testORG" data-provider="validdata" finished-at="2025-04-21T16:41:06 IST" duration-ms="4119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testORG -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:41:06 IST" name="checkstatus" finished-at="2025-04-21T16:41:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExtentReportpracticeDay_08.ExtentReportTestcases.testORG(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testORG status=SUCCESS method=ExtentReportTestcases.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:41:06 IST" name="testORG" data-provider="validdata" finished-at="2025-04-21T16:41:14 IST" duration-ms="7550" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -157,7 +189,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="1">
               <value>
-                <![CDATA[pqwe123]]>
+                <![CDATA[mn456]]>
               </value>
             </param>
           </params>
@@ -169,9 +201,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64bf198599ef5ff499b07f6b76db5a57, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64bf198599ef5ff499b07f6b76db5a57]]>
+Command: [a3de2a92939a63d0354ab89aadb990aa, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64871/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3de2a92939a63d0354ab89aadb990aa]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='oxd-userdropdown-tab']/child::img"}
@@ -180,9 +212,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64bf198599ef5ff499b07f6b76db5a57, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64bf198599ef5ff499b07f6b76db5a57
+Command: [a3de2a92939a63d0354ab89aadb990aa, findElement {value=//span[@class='oxd-userdropdown-tab']/child::img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64871/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3de2a92939a63d0354ab89aadb990aa
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -197,7 +229,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testORG(ExtenttestcasesDataprovider.java:19)
+at ExtentReportpracticeDay_08.ExtentReportTestcases.testORG(ExtentReportTestcases.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -230,74 +262,42 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testORG -->
-        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:19 IST" name="checkstatus" finished-at="2025-04-19T20:02:19 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:41:14 IST" name="checkstatus" finished-at="2025-04-21T16:41:14 IST" duration-ms="134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)]]>
+                <![CDATA[public void ExtentReportpracticeDay_08.ExtentReportTestcases.testORG(java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testORG status=FAILURE method=ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051] output={null}]]]>
+                <![CDATA[[TestResult name=testORG status=FAILURE method=ExtentReportTestcases.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkstatus -->
-        <test-method signature="testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:19 IST" name="testORG" data-provider="validation" finished-at="2025-04-19T20:02:25 IST" duration-ms="6002" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testORG -->
-        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:25 IST" name="checkstatus" finished-at="2025-04-19T20:02:25 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=testORG status=SUCCESS method=ExtenttestcasesDataprovider.testORG(java.lang.String,java.lang.String)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkstatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@58326051]" started-at="2025-04-19T20:02:25 IST" name="teardown" finished-at="2025-04-19T20:02:25 IST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@58326051]" started-at="2025-04-21T16:41:14 IST" name="teardown" finished-at="2025-04-21T16:41:14 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- ExtentReportPracticeday_05.ExtenttestcasesDataprovider -->
+      </class> <!-- ExtentReportpracticeDay_08.ExtentReportTestcases -->
     </test> <!-- TestORNG -->
-    <test started-at="2025-04-19T20:02:25 IST" name="TestGoogle" finished-at="2025-04-19T20:02:30 IST" duration-ms="4463">
-      <class name="ExtentReportPracticeday_05.ExtenttestcasesDataprovider">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@4426bff1]" started-at="2025-04-19T20:02:25 IST" name="setup" finished-at="2025-04-19T20:02:27 IST" duration-ms="1168" status="PASS">
+    <test started-at="2025-04-21T16:41:14 IST" name="TestGoogle" finished-at="2025-04-21T16:41:19 IST" duration-ms="4243">
+      <class name="ExtentReportpracticeDay_08.ExtentReportTestcases">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@4426bff1]" started-at="2025-04-21T16:41:14 IST" name="setup" finished-at="2025-04-21T16:41:16 IST" duration-ms="1611" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@47e51549]]>
+                <![CDATA[org.testng.TestRunner@4fba8eec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testgoogle()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@4426bff1]" started-at="2025-04-19T20:02:27 IST" name="testgoogle" finished-at="2025-04-19T20:02:29 IST" duration-ms="2943" status="FAIL">
+        <test-method signature="testgoogle()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@4426bff1]" started-at="2025-04-21T16:41:16 IST" name="testgoogle" finished-at="2025-04-21T16:41:18 IST" duration-ms="2297" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [goooleee] but found [Google]]]>
@@ -310,7 +310,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testgoogle(ExtenttestcasesDataprovider.java:28)
+at ExtentReportpracticeDay_08.ExtentReportTestcases.testgoogle(ExtentReportTestcases.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -343,46 +343,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgoogle -->
-        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@4426bff1]" started-at="2025-04-19T20:02:29 IST" name="checkstatus" finished-at="2025-04-19T20:02:30 IST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@4426bff1]" started-at="2025-04-21T16:41:18 IST" name="checkstatus" finished-at="2025-04-21T16:41:18 IST" duration-ms="133" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testgoogle()]]>
+                <![CDATA[public void ExtentReportpracticeDay_08.ExtentReportTestcases.testgoogle()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testgoogle status=FAILURE method=ExtenttestcasesDataprovider.testgoogle()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@4426bff1] output={null}]]]>
+                <![CDATA[[TestResult name=testgoogle status=FAILURE method=ExtentReportTestcases.testgoogle()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@4426bff1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkstatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@4426bff1]" started-at="2025-04-19T20:02:30 IST" name="teardown" finished-at="2025-04-19T20:02:30 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@4426bff1]" started-at="2025-04-21T16:41:18 IST" name="teardown" finished-at="2025-04-21T16:41:19 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- ExtentReportPracticeday_05.ExtenttestcasesDataprovider -->
+      </class> <!-- ExtentReportpracticeDay_08.ExtentReportTestcases -->
     </test> <!-- TestGoogle -->
-    <test started-at="2025-04-19T20:02:30 IST" name="TestFacebook" finished-at="2025-04-19T20:02:34 IST" duration-ms="4612">
-      <class name="ExtentReportPracticeday_05.ExtenttestcasesDataprovider">
-        <test-method is-config="true" signature="InitializeExtentReport()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@55493582]" started-at="2025-04-19T20:01:49 IST" name="InitializeExtentReport" finished-at="2025-04-19T20:01:49 IST" duration-ms="101" status="PASS">
+    <test started-at="2025-04-21T16:41:19 IST" name="TestFacebook" finished-at="2025-04-21T16:41:21 IST" duration-ms="2725">
+      <class name="ExtentReportpracticeDay_08.ExtentReportTestcases">
+        <test-method is-config="true" signature="InitializeExtentReport()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@55493582]" started-at="2025-04-21T16:40:37 IST" name="InitializeExtentReport" finished-at="2025-04-21T16:40:37 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitializeExtentReport -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@55493582]" started-at="2025-04-19T20:02:30 IST" name="setup" finished-at="2025-04-19T20:02:31 IST" duration-ms="1176" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@55493582]" started-at="2025-04-21T16:41:19 IST" name="setup" finished-at="2025-04-21T16:41:20 IST" duration-ms="1289" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@101a461c]]>
+                <![CDATA[org.testng.TestRunner@52bd9a27]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testfacebook()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@55493582]" started-at="2025-04-19T20:02:31 IST" name="testfacebook" finished-at="2025-04-19T20:02:34 IST" duration-ms="3142" status="FAIL">
+        <test-method signature="testfacebook()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@55493582]" started-at="2025-04-21T16:41:20 IST" name="testfacebook" finished-at="2025-04-21T16:41:21 IST" duration-ms="1081" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [goooleee] but found [Facebook – log in or sign up]]]>
@@ -395,7 +395,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testfacebook(ExtenttestcasesDataprovider.java:37)
+at ExtentReportpracticeDay_08.ExtentReportTestcases.testfacebook(ExtentReportTestcases.java:37)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -428,63 +428,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testfacebook -->
-        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@55493582]" started-at="2025-04-19T20:02:34 IST" name="checkstatus" finished-at="2025-04-19T20:02:34 IST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@55493582]" started-at="2025-04-21T16:41:21 IST" name="checkstatus" finished-at="2025-04-21T16:41:21 IST" duration-ms="137" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void ExtentReportPracticeday_05.ExtenttestcasesDataprovider.testfacebook()]]>
+                <![CDATA[public void ExtentReportpracticeDay_08.ExtentReportTestcases.testfacebook()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testfacebook status=FAILURE method=ExtenttestcasesDataprovider.testfacebook()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@55493582] output={null}]]]>
+                <![CDATA[[TestResult name=testfacebook status=FAILURE method=ExtentReportTestcases.testfacebook()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@55493582] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkstatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@55493582]" started-at="2025-04-19T20:02:34 IST" name="teardown" finished-at="2025-04-19T20:02:34 IST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@55493582]" started-at="2025-04-21T16:41:21 IST" name="teardown" finished-at="2025-04-21T16:41:21 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="generateExtentReport()[pri:0, instance:ExtentReportPracticeday_05.ExtenttestcasesDataprovider@55493582]" started-at="2025-04-19T20:02:34 IST" name="generateExtentReport" finished-at="2025-04-19T20:02:35 IST" duration-ms="101" status="FAIL">
-          <exception class="java.io.IOException">
-            <message>
-              <![CDATA[Failed to open file:/C:/Users/ASUS/eclipse-workspace/secongframe/AllTestEight.html. Error message: The system cannot find the file specified.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.IOException: Failed to open file:/C:/Users/ASUS/eclipse-workspace/secongframe/AllTestEight.html. Error message: The system cannot find the file specified.
-
-at java.desktop/sun.awt.windows.WDesktopPeer.ShellExecute(WDesktopPeer.java:119)
-at java.desktop/sun.awt.windows.WDesktopPeer.browse(WDesktopPeer.java:103)
-at java.desktop/java.awt.Desktop.browse(Desktop.java:533)
-at ExtentReportPracticeday_05.BaseClassfive.generateExtentReport(BaseClassfive.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.IOException -->
+        <test-method is-config="true" signature="GenerateExtentReport()[pri:0, instance:ExtentReportpracticeDay_08.ExtentReportTestcases@55493582]" started-at="2025-04-21T16:41:21 IST" name="GenerateExtentReport" finished-at="2025-04-21T16:41:22 IST" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generateExtentReport -->
-      </class> <!-- ExtentReportPracticeday_05.ExtenttestcasesDataprovider -->
+        </test-method> <!-- GenerateExtentReport -->
+      </class> <!-- ExtentReportpracticeDay_08.ExtentReportTestcases -->
     </test> <!-- TestFacebook -->
   </suite> <!-- Suite -->
 </testng-results>

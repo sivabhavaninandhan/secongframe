@@ -16,11 +16,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -33,7 +33,7 @@ public class BaseClassfive {
 	public static ExtentTest extentTest;
 	public static ExtentReports extentReports;
 	
-	@BeforeClass
+	@BeforeTest
 	public void setup(ITestContext context)
 	{
 		driver=new ChromeDriver();
@@ -49,7 +49,7 @@ public class BaseClassfive {
 		extentTest.assignDevice(device);
 	}
 	
-  @AfterClass
+  @AfterTest
 public void teardown()
 {
  driver.quit();
@@ -58,16 +58,18 @@ public void teardown()
   @BeforeSuite
   public void InitializeExtentReport()
   {
-	  ExtentSparkReporter sparkreporter=new ExtentSparkReporter("AllTestEight.html");
+	  ExtentSparkReporter sparkreporter=new ExtentSparkReporter("AllTestseleven.html");
+	  
 	  extentReports=new ExtentReports();
-	  extentReports.setSystemInfo("os", System.getProperty("os.name"));
+	  extentReports.attachReporter(sparkreporter);
+	  extentReports.setSystemInfo("OS", System.getProperty("os.name"));
 	  extentReports.setSystemInfo("JavaVersion", System.getProperty("java.version"));
   }
   @AfterSuite
   public void generateExtentReport() throws IOException
   {
 	  extentReports.flush();
-	  Desktop.getDesktop().browse(new File("AllTestEight.html").toURI());
+	  Desktop.getDesktop().browse(new File("AllTestseleven.html").toURI());
   }
   
   @AfterMethod
@@ -92,14 +94,14 @@ public void teardown()
 	  Date dt=new Date();
 	  
 	  String timestamp=dt.toString().replace(":", "_").replace(" ","");
-	  String folder="./screen112/"+timestamp+imgname;
+	  String path="./screen117/"+timestamp+imgname;
 	  
 	  TakesScreenshot ts=(TakesScreenshot)driver;
 	  File src=ts.getScreenshotAs(OutputType.FILE);
-	  File dst=new File(folder);
-	  
+	  File dst=new File(path);
 	  FileUtils.copyFile(src, dst);
-	  
-	  return folder;
+	  System.out.println("screenshot saved successfully");
+	  return path;
+
   }
 }

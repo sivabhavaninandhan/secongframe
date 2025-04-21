@@ -4,46 +4,46 @@
   <test thread-count="5" name="TestORNG(failed)">
     <parameter name="author" value="ganga"/>
     <classes>
-      <class name="ExtentReportPracticeday_05.ExtenttestcasesDataprovider">
+      <class name="ExtentReportpracticeDay_08.ExtentReportTestcases">
         <methods>
           <include name="InitializeExtentReport"/>
-          <include name="setup"/>
-          <include name="checkstatus"/>
-          <include name="testORG" invocation-numbers="1 2"/>
-          <include name="generateExtentReport"/>
           <include name="teardown"/>
+          <include name="GenerateExtentReport"/>
+          <include name="testORG" invocation-numbers="1 3"/>
+          <include name="checkstatus"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- ExtentReportPracticeday_05.ExtenttestcasesDataprovider -->
+      </class> <!-- ExtentReportpracticeDay_08.ExtentReportTestcases -->
     </classes>
   </test> <!-- TestORNG(failed) -->
   <test thread-count="5" name="TestGoogle(failed)">
     <parameter name="author" value="bhavani"/>
     <classes>
-      <class name="ExtentReportPracticeday_05.ExtenttestcasesDataprovider">
+      <class name="ExtentReportpracticeDay_08.ExtentReportTestcases">
         <methods>
           <include name="InitializeExtentReport"/>
-          <include name="setup"/>
-          <include name="checkstatus"/>
-          <include name="generateExtentReport"/>
           <include name="teardown"/>
+          <include name="GenerateExtentReport"/>
+          <include name="checkstatus"/>
+          <include name="setup"/>
           <include name="testgoogle"/>
         </methods>
-      </class> <!-- ExtentReportPracticeday_05.ExtenttestcasesDataprovider -->
+      </class> <!-- ExtentReportpracticeDay_08.ExtentReportTestcases -->
     </classes>
   </test> <!-- TestGoogle(failed) -->
   <test thread-count="5" name="TestFacebook(failed)">
     <parameter name="author" value="kadali"/>
     <classes>
-      <class name="ExtentReportPracticeday_05.ExtenttestcasesDataprovider">
+      <class name="ExtentReportpracticeDay_08.ExtentReportTestcases">
         <methods>
-          <include name="InitializeExtentReport"/>
           <include name="testfacebook"/>
-          <include name="setup"/>
-          <include name="checkstatus"/>
-          <include name="generateExtentReport"/>
+          <include name="InitializeExtentReport"/>
           <include name="teardown"/>
+          <include name="GenerateExtentReport"/>
+          <include name="checkstatus"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- ExtentReportPracticeday_05.ExtenttestcasesDataprovider -->
+      </class> <!-- ExtentReportpracticeDay_08.ExtentReportTestcases -->
     </classes>
   </test> <!-- TestFacebook(failed) -->
 </suite> <!-- Failed suite [Suite] -->

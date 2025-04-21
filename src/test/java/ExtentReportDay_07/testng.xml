@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<test name="TestORNG">
+  <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="ExtentReportDay_07.ExtentTestCasesseven"/>
+      <methods>
+      <include name="testORG"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="TestGoogle">
+  <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="ExtentReportDay_07.ExtentTestCasesseven"/>
+      <methods>
+      <include name="testGoogle"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="TestFaceBook">
+  <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="ExtentReportDay_07.ExtentTestCasesseven"/>
+      <methods>
+      <include name="testFaceBook"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
