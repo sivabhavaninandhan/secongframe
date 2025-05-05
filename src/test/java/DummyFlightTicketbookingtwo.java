@@ -65,7 +65,7 @@ public class DummyFlightTicketbookingtwo {
 		 
 		 	WebElement selectmonth=driver.findElement(By.xpath("//select[@aria-label='Select month']"));
 		 	Select monthsel=new Select(selectmonth);
-		 	monthsel.selectByVisibleText("Mar");
+		 	monthsel.selectByVisibleText("May");
 
 		 	WebElement selectyear=driver.findElement(By.xpath("//select[@aria-label='Select year']"));
 		 	Select yearsel=new Select(selectyear);

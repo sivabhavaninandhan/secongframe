@@ -29,8 +29,7 @@ public class paginationintroduct {
 		
 		int numrow=row.size();
 		System.out.println("the ttotal rows are "+numrow);
-
-		
+	
 		for(int p=1;p<=numpages;p++)
 		{
 			for(int r=1;r<=numrow;r++)           

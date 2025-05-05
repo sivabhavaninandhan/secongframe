@@ -31,8 +31,6 @@ public class BootStrapDropdown {
 		System.out.println("the total items in productselect are "+productselect.size());
 		SelectOptionFromeDropdown(productselect,"Fixed Deposit");
 		//Fixed Deposit
-		
-
 	}
 	public static void SelectOptionFromeDropdown(List<WebElement> option,  String value)
 	{

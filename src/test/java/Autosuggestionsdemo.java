@@ -18,11 +18,11 @@ public class Autosuggestionsdemo {
 		 
 		List<WebElement> autosugns=driver.findElements(By.xpath("//div[@role='presentation']/ul/li"));
 		
-		System.out.println("size of Autosuggestions "+autosugns.size());
+		System.out.println("total  Autosuggestions are  "+autosugns.size());
 		
 		for(WebElement autos:autosugns)
 		{
-			if(autos.getText().contains(" automation testing"))
+			if(autos.getText().contains("selenium download"))
 			{
 				autos.click();
 				break;

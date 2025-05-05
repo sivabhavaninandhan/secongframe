@@ -8,6 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NotificationAlert {
+	
+      static void futureDate(WebDriver driver,String year,String month,String day)
+	{
+			
+	}
 
 	public static void main(String[] args) {
 		 WebDriver driver=new ChromeDriver();

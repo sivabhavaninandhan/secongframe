@@ -42,34 +42,34 @@ public class CheckBoxesdemo {
 		
 		//select multiple check boxes randomily
 		
-		/*for(WebElement check:totaldays)
+		for(WebElement check:totaldays)
 		{
-			String checkname=check.getAttribute("value");
+			String checkname=check.getAttribute("id");
 			if(checkname.equals("sunday") || checkname.equals("tuesday")) 
 			{
 				check.click();
 			}
 			
-			}*/
+			}
 		
 		/*for(WebElement checks:totaldays)
 		{
 			checks.click();
-		}*/
-		
+		}
+		*/
 		/*for(int i=3;i<totaldays.size();i++)
 		{
 			totaldays.get(i).click();
 		}(*/
 		
 		//select first 3 checkboxes
-		for(int i=0;i<totaldays.size();i++)
+		/*for(int i=0;i<totaldays.size();i++)
 		{
 			if(i<3)
 			{
 				totaldays.get(i).click();
 			}
-		}
+		}*/
 		}
 		
 	}
