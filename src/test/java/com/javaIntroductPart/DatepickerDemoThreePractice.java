@@ -3,6 +3,7 @@ package com.javaIntroductPart;
 import java.time.Duration;
 import java.time.Month;
 import java.util.HashMap;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -75,7 +76,15 @@ public class DatepickerDemoThreePractice {
 			}
 		}
 		
-
+      List<WebElement> dates=driver.findElements(By.xpath("//input[@id='zxcvvbn']"));
+      
+      for(WebElement lidate:dates)
+      {
+    	  if(lidate.getText().equals(requiredDate))
+    	  {
+    		  break; 
+    	  }
+      }
 	}
 
 }

@@ -90,7 +90,7 @@ public class BaseClass {
 		Date dt=new Date();
 		String timestamp=dt.toString().replace(":", "_").replace(" ", "");
 		
-		String imgpath="./screen120/"+timestamp+imgName;
+		String imgpath="./screen122/"+timestamp+imgName;
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
 		File dst=new File(imgpath);

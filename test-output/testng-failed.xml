@@ -2,48 +2,48 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="TestORNG(failed)">
-    <parameter name="author" value="bhvani"/>
+    <parameter name="author" value="ganga"/>
     <classes>
-      <class name="ExtentReportDay_12.TestCasesTwelve">
+      <class name="ExtentReportPracticeDay_14.ExtentTestcasesfif">
         <methods>
-          <include name="InitiateExentReport"/>
-          <include name="setup"/>
-          <include name="testORG" invocation-numbers="1 2"/>
           <include name="generateExtentReport"/>
+          <include name="testORG" invocation-numbers="1 3"/>
           <include name="checkStatus"/>
+          <include name="InitializeExtentReport"/>
+          <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- ExtentReportDay_12.TestCasesTwelve -->
+      </class> <!-- ExtentReportPracticeDay_14.ExtentTestcasesfif -->
     </classes>
   </test> <!-- TestORNG(failed) -->
   <test thread-count="5" name="TestGoogle(failed)">
-    <parameter name="author" value="ganga"/>
+    <parameter name="author" value="bhavani"/>
     <classes>
-      <class name="ExtentReportDay_12.TestCasesTwelve">
+      <class name="ExtentReportPracticeDay_14.ExtentTestcasesfif">
         <methods>
-          <include name="InitiateExentReport"/>
-          <include name="setup"/>
-          <include name="testgoogle"/>
           <include name="generateExtentReport"/>
           <include name="checkStatus"/>
+          <include name="testgoogle"/>
+          <include name="InitializeExtentReport"/>
+          <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- ExtentReportDay_12.TestCasesTwelve -->
+      </class> <!-- ExtentReportPracticeDay_14.ExtentTestcasesfif -->
     </classes>
   </test> <!-- TestGoogle(failed) -->
   <test thread-count="5" name="TestFacebook(failed)">
-    <parameter name="author" value="gangani"/>
+    <parameter name="author" value="satya"/>
     <classes>
-      <class name="ExtentReportDay_12.TestCasesTwelve">
+      <class name="ExtentReportPracticeDay_14.ExtentTestcasesfif">
         <methods>
-          <include name="InitiateExentReport"/>
-          <include name="testfacebook"/>
-          <include name="setup"/>
           <include name="generateExtentReport"/>
+          <include name="testfacebook"/>
           <include name="checkStatus"/>
+          <include name="InitializeExtentReport"/>
+          <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- ExtentReportDay_12.TestCasesTwelve -->
+      </class> <!-- ExtentReportPracticeDay_14.ExtentTestcasesfif -->
     </classes>
   </test> <!-- TestFacebook(failed) -->
 </suite> <!-- Failed suite [Suite] -->
