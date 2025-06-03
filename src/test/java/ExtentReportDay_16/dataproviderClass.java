@@ -1,0 +1,40 @@
+package ExtentReportDay_16;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
+
+public class dataproviderClass {
+	
+	@DataProvider
+	
+	public String[][] validation() throws IOException
+	{
+		String path="C:\\\\Users\\\\ASUS\\\\OneDrive\\\\ganga.xlsx";
+		
+		FileInputStream fis=new FileInputStream(path);
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		XSSFSheet sheet=workbook.getSheet("Sheet1");
+		
+		int rows=sheet.getPhysicalNumberOfRows();
+		int cels=sheet.getRow(0).getPhysicalNumberOfCells();
+		
+		String[][] data=new String[rows-1][cels];
+		
+		for(int r=0;r<rows-1;r++)
+		{
+			for(int c=0;c<cels;c++)
+			{
+				DataFormatter df=new DataFormatter();
+				data[r][c]=df.formatCellValue(sheet.getRow(r+1).getCell(c));
+			}
+		}
+		fis.close();
+		return data;
+	}
+
+}
